@@ -1,3 +1,7 @@
 theme: jekyll-theme-slate
 title: OMIsie Dev Site🎉
 description: My projects and samples will be posted here 🤖
+
+github:
+<!--- Disable "View on github button --->
+  is_project_page: false
