@@ -43,12 +43,12 @@ a {
 	-webkit-border-radius: 150px;
 	-moz-border-radius: 150px;
 	background: url(/images/androidify.png) no-repeat;
+	background-position: 50% 50%;
+      	background-size: 200px 200px;
+      	margin: auto;
 	}
 
 .circular img {
-      background-position: 50% 50%;
-      background-size: 200px 200px;
-      margin: auto;
 	opacity: 0;
 	filter: alpha(opacity=0);
 	}
