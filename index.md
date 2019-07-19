@@ -6,7 +6,7 @@ You can find me at:
 
 ### SpaceX Follower
 Android app for tracking missions, launches and being up-to-date with SpaceX activity.
-Application is using **unofficial** open source[SpaceX Rest Api](https://github.com/r-spacex/SpaceX-API)
+Application is using **unofficial** open source [SpaceX Rest Api](https://github.com/r-spacex/SpaceX-API).
 
 ![SpaceAppScreenshots](images/space_app_screenshots.png)
 
