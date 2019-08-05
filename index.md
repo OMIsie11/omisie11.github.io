@@ -10,6 +10,14 @@ Application is using **unofficial** open source [SpaceX Rest Api](https://github
 
 ![SpaceAppScreenshots](images/space_app_screenshots.png)
 
+### Dose Calculator (PL: Kalkulator Dawek)
+Small and simple app for calculating doses of medicines (Ibuprofen and Paracetamol).
+App based on web calculator that You can find here, originally made by Mateusz Woźniak.
+
+**Application was designed for Polish users. So it will probably be usefull only for them**
+
+![DoseCalculatorScreenshotsPL](images/screenshots_dose_calc)
+
 ### Coffee consumption and productivity tracker
 Simple and clean Android app for tracking Your daily coffee consumption and productivity level.
 
