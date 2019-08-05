@@ -10,7 +10,7 @@ Application is using **unofficial** open source [SpaceX Rest Api](https://github
 
 ![SpaceAppScreenshots](images/space_app_screenshots.png)
 
-### Dose Calculator (PL: Kalkulator Dawek)
+### [Dose Calculator (PL: Kalkulator Dawek)](https://github.com/OMIsie11/DoseCalculator)
 Small and simple app for calculating doses of medicines (Ibuprofen and Paracetamol).
 App based on web calculator that You can find [here](https://mamaistetoskop.pl/), originally made by [Mateusz Woźniak](https://github.com/wozniakm).
 **All calculations are for informational purposes only and do not constitute medical advice.**
