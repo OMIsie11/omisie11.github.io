@@ -1,5 +1,4 @@
 ## Welcome!
-
 You can find me at:
 - [Twitter](https://twitter.com/omisie11) ✔️
 - [GitHub](https://github.com/OMIsie11) ✔️
