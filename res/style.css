@@ -26,7 +26,7 @@ h3 {
     margin-right: auto;
     padding: 8px;
     border-radius: 0 0 16px 16px;
-    background: linear-gradient(90deg, #667db6 , #0082c8 50%,#667db6 100%)
+    background: linear-gradient(0deg, #37474f, #3d72b4 100%)
 }
 
 .title {
@@ -120,13 +120,13 @@ footer {
     outline: none;
     border-radius: 16px;
     box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
-    background-color: #0082c8;
-    color: #ffffff;
+    background-color: #ffab91;
+    color: #000000;
     transition: background-color .3s;
   }
   
 .material_button:hover, .material_button:focus {
-    background-color: #0096c8;
+    background-color: #ffbfab;
 }
   
 .material_button > * {
