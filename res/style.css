@@ -20,11 +20,11 @@ h3 {
 .page_header {
     text-align: center;
     display:block;
-    width: 80%;
+    width: 95%;
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
-    padding: 8px;
+    padding: 4px;
     border-radius: 0 0 16px 16px;
     background: linear-gradient(0deg, #37474f, #3d72b4 100%)
 }
@@ -59,7 +59,7 @@ h3 {
     text-align: center;
     display:block;
     padding: 4px;
-    width:80%;
+    width: 95%;
     max-width: 600px;
     height:auto;
     background: #37474f;
@@ -73,7 +73,7 @@ h3 {
     text-align: center;
     display:block;
     padding: 4px;
-    width:80%;
+    width: 95%;
     max-width: 600px;
     height:auto;
     background: #37474f;
@@ -87,7 +87,7 @@ h3 {
     text-align: center;
     display:block;
     padding: 4px;
-    width:80%;
+    width: 95%;
     max-width: 600px;
     height:auto;
     background: #37474f;
