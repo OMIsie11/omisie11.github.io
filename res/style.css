@@ -1,44 +1,45 @@
-html,body {
+html,
+body {
     font-family: 'Open Sans', sans-serif;
-    margin:0px;
-	background-color: #102027
+    margin: 0px;
+    background-color: #0A1128;
 }
 
 a {
-	text-decoration: none;
-	color:#ffab91;
+    text-decoration: none;
+    color: #ffab91;
 }
 
 a:hover {
-	text-decoration: underline;
+    text-decoration: underline;
 }
 
 h3 {
     color: #bdbdbd;
 }
 
-.page_header {
+.page-header {
     text-align: center;
-    display:block;
+    display: block;
     width: 95%;
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
     padding: 4px;
     border-radius: 0 0 16px 16px;
-    background: linear-gradient(0deg, #37474f, #3d72b4 100%)
+    background: #252D47;
 }
 
-.circular_image {
-	max-width: 200px;
+.circular-image {
+    max-width: 200px;
     max-height: 200px;
     margin-top: 8px;
-	border-radius: 150px;
-	-webkit-border-radius: 150px;
-	-moz-border-radius: 150px;
-	background: url(img/androidify.png) no-repeat;
-	background-position: 50% 50%;
-}    
+    border-radius: 150px;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+    background: url(img/profile_photo.png) no-repeat;
+    background-position: 50% 50%;
+}
 
 .title {
     color: #ffffff
@@ -48,64 +49,118 @@ h3 {
     color: #bdbdbd
 }
 
-.social_links {
-    color: #bdbdbd
+ul {
+    padding: 0;
+    margin: 4px;
+    list-style: none;
 }
 
-.project_name {
+.header-social-icons {
+    display: block;
+    margin: 0 auto;
+}
+
+.social-icons-title {
+    color: #bdbdbd;
+    margin: 2px;
+}
+
+.social-icon {
+    color: #bdbdbd;
+}
+
+.social-icons li {
+    vertical-align: top;
+    display: inline;
+}
+
+.social-icons a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.fa-twitter {
+    padding: 10px 14px;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+    background-color: #252D47;
+}
+
+.fa-twitter:hover {
+    background-color: #00aced;
+}
+
+.fa-github {
+    padding: 10px 14px;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+    background-color: #252D47;
+}
+
+.fa-github:hover {
+    background-color: #6e5494;
+}
+
+.project-name {
     font-weight: bold;
 }
 
-.project_description {
+.project-description {
     color: #bdbdbd;
     text-align: center;
     padding-left: 4px;
     padding-right: 4px;
 }
 
-.project_card_space {
+.project-card-space {
     margin-top: 24px;
     margin-right: auto;
     margin-left: auto;
     text-align: center;
-    display:block;
+    display: block;
     padding: 4px;
     width: 95%;
     max-width: 600px;
-    height:auto;
-    background: #37474f;
+    height: auto;
+    background: #252D47;
     border-radius: 16px;
 }
 
-.project_card_dose_calc {
+.project-card-dose-calc {
     margin-top: 24px;
     margin-right: auto;
     margin-left: auto;
     text-align: center;
-    display:block;
+    display: block;
     padding: 4px;
     width: 95%;
     max-width: 600px;
-    height:auto;
-    background: #37474f;
+    height: auto;
+    background: #252D47;
     border-radius: 16px;
 }
 
-.project_card_coffee {
+.project-card-coffee {
     margin-top: 24px;
     margin-right: auto;
     margin-left: auto;
     text-align: center;
-    display:block;
+    display: block;
     padding: 4px;
     width: 95%;
     max-width: 600px;
-    height:auto;
-    background: #37474f;
+    height: auto;
+    background: #252D47;
     border-radius: 16px;
 }
 
-.app_type {
+.app-type {
     color: #ffab91;
     margin-bottom: 0px;
     margin-top: 4px;
@@ -118,7 +173,7 @@ footer {
     color: #bdbdbd;
 }
 
-.material_button {
+.material-button {
     position: relative;
     display: block;
     margin: 16px auto;
@@ -134,17 +189,18 @@ footer {
     background-color: #ffab91;
     color: #000000;
     transition: background-color .3s;
-  }
-  
-.material_button:hover, .material_button:focus {
+}
+
+.material-button:hover,
+.material-button:focus {
     background-color: #ffbfab;
 }
-  
-.material_button > * {
+
+.material-button>* {
     position: relative;
 }
-  
-.material_button:before {
+
+.material-button:before {
     content: "";
     position: absolute;
     top: 50%;
@@ -159,9 +215,9 @@ footer {
     -ms-transform: translate(-50%, -50%);
     -o-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-  }
-  
-.material_button:active:before {
+}
+
+.material-button:active:before {
     width: 120%;
     padding-top: 120%;
     transition: width .2s ease-out, padding-top .2s ease-out;
