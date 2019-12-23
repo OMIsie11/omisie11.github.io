@@ -28,6 +28,7 @@ h3 {
     padding: 4px;
     border-radius: 0 0 16px 16px;
     background: #252D47;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
 #profile-image-wrapper {
@@ -88,7 +89,7 @@ ul {
     text-decoration: none;
 }
 
-.fa-twitter {
+.fa-icon {
     padding: 10px 14px;
     -o-transition: .5s;
     -ms-transition: .5s;
@@ -100,16 +101,6 @@ ul {
 
 .fa-twitter:hover {
     background-color: #00aced;
-}
-
-.fa-github {
-    padding: 10px 14px;
-    -o-transition: .5s;
-    -ms-transition: .5s;
-    -moz-transition: .5s;
-    -webkit-transition: .5s;
-    transition: .5s;
-    background-color: #252D47;
 }
 
 .fa-github:hover {
@@ -133,7 +124,7 @@ ul {
     padding-right: 4px;
 }
 
-.project-card-space {
+.project-card {
     margin-top: 24px;
     margin-right: auto;
     margin-left: auto;
@@ -145,34 +136,7 @@ ul {
     height: auto;
     background: #252D47;
     border-radius: 16px;
-}
-
-.project-card-dose-calc {
-    margin-top: 24px;
-    margin-right: auto;
-    margin-left: auto;
-    text-align: center;
-    display: block;
-    padding: 4px;
-    width: 95%;
-    max-width: 600px;
-    height: auto;
-    background: #252D47;
-    border-radius: 16px;
-}
-
-.project-card-coffee {
-    margin-top: 24px;
-    margin-right: auto;
-    margin-left: auto;
-    text-align: center;
-    display: block;
-    padding: 4px;
-    width: 95%;
-    max-width: 600px;
-    height: auto;
-    background: #252D47;
-    border-radius: 16px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
 .app-type {
