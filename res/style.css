@@ -26,26 +26,6 @@ h3 {
     margin-left: auto;
     margin-right: auto;
     padding: 4px;
-    border-radius: 0 0 16px 16px;
-    
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-}
-
-#profile-image-wrapper {
-    width: 200px;
-    height: 200px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 8px;
-}
-
-.circular-image {
-    max-width: 200px;
-    max-height: 200px;
-    border-radius: 150px;
-    -webkit-border-radius: 150px;
-    -moz-border-radius: 150px;
-    background-position: 50% 50%;
 }
 
 .title {
