@@ -12,6 +12,7 @@ a {
 
 a:hover {
     text-decoration: underline;
+    cursor: pointer;
 }
 
 h3 {
@@ -117,6 +118,18 @@ ul {
     background: #252D47;
     border-radius: 16px;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+#span-more-spacex {
+    display: none;
+}
+
+#span-more-dose-calc {
+    display: none;
+}
+
+#span-more-coffee-productivity {
+    display: none;
 }
 
 .app-type {

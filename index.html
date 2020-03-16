@@ -25,7 +25,8 @@
 <body>
     <header class="page-header">
         <h1 class="title">Oskar Misiewicz</h1>
-        <p class="subtitle">I like designing and making Android apps<br> Check my projects and samples below 🛠</p>
+        <p class="subtitle">I like software development, especially designing and making Android apps 🤖<br> Check out
+            my selected projects and samples 🛠</p>
         <div class="header-social-icons">
             <h4 class="social-icons-title">Find me at</h4>
             <ul class="social-icons">
@@ -43,10 +44,14 @@
 
     <div class="project-card" id="project-card-space">
         <h3 class="project-name">SpaceX Follower</h3>
-        <p class="project-description">Android app for tracking Space X data 🚀<br>Application is using
-            <b>unofficial</b> open source
-            <a href="https://github.com/r-spacex/SpaceX-API">SpaceX API</a> for getting all data.<br><b>This application
-                is not affiliated with, funded or in any other way associated with SpaceX company.</b></p>
+        <p class="project-description">Android app for tracking Space X data 🚀
+            <span id="dots-more-spacex">...</span>
+            <span id="span-more-spacex"><br>Application is using <b>unofficial</b> open source
+                <a href="https://github.com/r-spacex/SpaceX-API">SpaceX API</a> for getting all data.<br><b>This
+                    applicationis not affiliated with, funded or in any other way associated with SpaceX
+                    company. </b></span>
+            <a id="btn-more-spacex" onclick="showHideSpaceX()" class="btn-more-less">Read
+                more</a></p>
         <button class="material-button" type="btn"
             onclick=" window.open('https://github.com/OMIsie11/SpaceXFollower','_blank')"><span>Get it on
                 GitHub</span></button>
@@ -56,11 +61,15 @@
 
     <div class="project-card" id="project-card-dose-calc">
         <h3 class="project-name">Dose Calculator (PL: Kalkulator Dawek)</h3>
-        <p class="project-description">Small and simple app for calculating doses of medicines (Ibuprofen and
-            Paracetamol)<br>App based on web calculator that You can find at <a
-                href="https://mamaistetoskop.pl/">mamaistetoskop.pl</a>, originally made by <a
-                href="https://github.com/wozniakm">Mateusz Woźniak</a>.
-            <br><b>Application was designed for Polish users. So it will probably be usefull only for them</b></p>
+        <p class="project-description">Small and simple app for calculating doses of medicines
+            <span id="dots-more-dose-calc">...</span>
+            <span id="span-more-dose-calc"> (Ibuprofen and
+                Paracetamol)<br>App based on web calculator that You can find at <a
+                    href="https://mamaistetoskop.pl/">mamaistetoskop.pl</a>, originally made by <a
+                    href="https://github.com/wozniakm">Mateusz Woźniak</a>. Application was designed for Polish users
+                and it will probably be usefull only for them. </span>
+            <a id="btn-more-dose-calc" onclick="showHideDoseCalc()" class="btn-more-less">Read
+                more</a></p>
         <button class="material-button" type="btn"
             onclick=" window.open('https://github.com/OMIsie11/DoseCalculator','_blank')"><span>Get it on
                 GitHub</span></button>
@@ -72,7 +81,13 @@
 
     <div class="project-card" id="project-card-coffee">
         <h3 class="project-name">Coffee Productivity Tracker</h3>
-        <p class="project-description">Simple Android app for tracking coffee consumption☕️ and daily productivity⚡️</p>
+        <p class="project-description">Simple Android app for tracking coffee consumption☕️ and daily productivity⚡️
+            <span id="dots-more-coffee-productivity">...</span>
+            <span id="span-more-coffee-productivity">
+                <br>This application is no longer being developed, but rewrite and open-sourcing the project is possible
+                in the future. </span>
+            <a id="btn-more-coffee-productivity" onclick="showHideCoffeeProductivity()" class="btn-more-less">Read
+                more</a></p>
         <img src="img/placeholder_coffee_productivity_screenshots.png"
             data-src="img/coffee_productivity_screenshots-1x.png"
             data-srcset="img/coffee_productivity_screenshots-1x.png 1x, img/coffee_productivity_screenshots-2x.png 2x"
@@ -81,7 +96,7 @@
     </div>
 
     <footer>
-        <p>Oskar Misiewicz 2020</p>
+        <p>Oskar Misiewicz 2020 ✨</p>
     </footer>
 
 </body>
