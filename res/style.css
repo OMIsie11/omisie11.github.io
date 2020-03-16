@@ -28,7 +28,7 @@ h3 {
     padding: 4px;
     border-radius: 0 0 16px 16px;
     background: #252D47;
-    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
 
 #profile-image-wrapper {
@@ -46,9 +46,6 @@ h3 {
     -webkit-border-radius: 150px;
     -moz-border-radius: 150px;
     background-position: 50% 50%;
-    -webkit-animation: sharp 4s;
-    /* Chrome, Safari, Opera */
-    animation: sharp 4s;
 }
 
 .title {
@@ -112,9 +109,10 @@ ul {
 }
 
 .project-image {
-    -webkit-animation: sharp 4s;
-    /* Chrome, Safari, Opera */
-    animation: sharp 4s;
+    height: auto;
+    max-width: 100%;
+    color: #bdbdbd;
+    border-radius: 16px;
 }
 
 .project-description {
@@ -136,7 +134,7 @@ ul {
     height: auto;
     background: #252D47;
     border-radius: 16px;
-    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
 
 .app-type {
@@ -200,41 +198,4 @@ footer {
     width: 120%;
     padding-top: 120%;
     transition: width .2s ease-out, padding-top .2s ease-out;
-}
-
-/* Pictures blurry loading */
-@-webkit-keyframes sharp {
-    from {
-        -webkit-filter: blur(5px);
-        -moz-filter: blur(5px);
-        -o-filter: blur(5px);
-        -ms-filter: blur(5px);
-        filter: blur(5px);
-    }
-
-    to {
-        -webkit-filter: none;
-        -moz-filter: none;
-        -o-filter: none;
-        -ms-filter: none;
-        filter: none;
-    }
-}
-
-@keyframes sharp {
-    from {
-        -webkit-filter: blur(5px);
-        -moz-filter: blur(5px);
-        -o-filter: blur(5px);
-        -ms-filter: blur(5px);
-        filter: blur(5px);
-    }
-
-    to {
-        -webkit-filter: none;
-        -moz-filter: none;
-        -o-filter: none;
-        -ms-filter: none;
-        filter: none;
-    }
 }
