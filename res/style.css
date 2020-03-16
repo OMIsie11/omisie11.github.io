@@ -2,7 +2,8 @@ html,
 body {
     font-family: 'Open Sans', sans-serif;
     margin: 0px;
-    background-color: #0A1128;
+    background-color: #011627;
+    color: #5f7e97;
 }
 
 a {
@@ -16,7 +17,7 @@ a:hover {
 }
 
 h3 {
-    color: #bdbdbd;
+    color: #D2DEE7;
 }
 
 .page-header {
@@ -31,11 +32,11 @@ h3 {
 
 .title {
     font-family: 'Dosis', sans-serif;
-    color: #ffffff;
+    color: #a2bffc;
 }
 
 .subtitle {
-    color: #bdbdbd;
+    color: #D2DEE7;
 }
 
 ul {
@@ -50,7 +51,7 @@ ul {
 }
 
 .social-icons-title {
-    color: #bdbdbd;
+    color: #D2DEE7;
     margin: 2px;
 }
 
@@ -89,17 +90,18 @@ ul {
 .project-name {
     font-family: 'Dosis', sans-serif;
     font-weight: bold;
+    color: #a2bffc;
 }
 
 .project-image {
     height: auto;
     max-width: 100%;
-    color: #bdbdbd;
+    color: #D2DEE7;
     border-radius: 16px;
 }
 
 .project-description {
-    color: #bdbdbd;
+    color: #D2DEE7;
     text-align: center;
     padding-left: 4px;
     padding-right: 4px;
@@ -115,7 +117,7 @@ ul {
     width: 95%;
     max-width: 600px;
     height: auto;
-    background: #252D47;
+    background: #0B2942;
     border-radius: 16px;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
