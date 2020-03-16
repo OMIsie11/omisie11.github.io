@@ -160,6 +160,7 @@ footer {
     box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
     background-color: #ffab91;
     color: #000000;
+    font-size: medium;
     transition: background-color .3s;
 }
 
