@@ -32,6 +32,15 @@ function showHideSpaceX() {
   showHideInfo(dots, moreText, btn);
 }
 
+// Called to show or hide more info about CoronaTracker project
+function showHideCoronaTracker() {
+  let dots = document.getElementById("dots-more-corona-tracker");
+  let moreText = document.getElementById("span-more-corona-tracker");
+  let btn = document.getElementById("btn-more-corona-tracker");
+
+  showHideInfo(dots, moreText, btn);
+}
+
 // Called to show or hide more info about Dose Calculator project
 function showHideDoseCalc() {
   let dots = document.getElementById("dots-more-dose-calc");

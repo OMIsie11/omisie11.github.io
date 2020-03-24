@@ -124,6 +124,10 @@ ul {
     display: none;
 }
 
+#span-more-corona-tracker {
+    display: none;
+}
+
 #span-more-dose-calc {
     display: none;
 }
