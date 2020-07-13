@@ -1,4 +1,7 @@
-// Lazy load images
+/**
+ * Lazy load images on page
+ * First project image is loaded in standard way
+ */
 document.addEventListener("DOMContentLoaded", function () {
   var lazyImages = [].slice.call(document.querySelectorAll("img.lazy"));
 
