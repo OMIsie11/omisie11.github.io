@@ -52,6 +52,7 @@ ul {
 .social-icons-title {
     color: #bdbdbd;
     margin: 2px;
+    padding-bottom: 8px;
 }
 
 .social-icon {
@@ -76,6 +77,7 @@ ul {
     -webkit-transition: .5s;
     transition: .5s;
     background-color: #252D47;
+    border-radius: 8px;
 }
 
 .fa-twitter:hover {
